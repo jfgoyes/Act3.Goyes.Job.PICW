@@ -50,4 +50,5 @@ if (tablas_seleccionadas === "pares") {
 } else {
     // Mensaje advertencia en caso de que el usuario especifique cualquier otro caracter.
     console.log ("[Tablas pares/impares] Valor ingresado inválido, escriba pares o impares");
+    console.log ("");
 }

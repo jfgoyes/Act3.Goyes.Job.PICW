@@ -11,6 +11,7 @@ numero_tabla = Number(numero_tabla);
 // Comprobación si el número ingresado es válido.
 if (isNaN (numero_tabla)) { // Si se ingresa un valor no numérico isNaN (is Not a Number).
     console.log ("[Tabla de multiplicar] Número no válido");
+    console.log ("");
 } else {
     // Mensaje para mostrar el número ingresado por el usuario.
     console.log ("[Tabla de multiplicar] Tabla del número: " + numero_tabla);
